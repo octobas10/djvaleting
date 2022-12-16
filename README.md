@@ -16,3 +16,8 @@ Steps to follow to set up the project. (same can be found in README.me)
 
 Admin Registration 
 http://localhost:8000/register
+
+- Once regisration is done, login with created credentials
+- Perform the Crud Operations, Edit to approve the Booking
+- Once Booking is approved by the amdin, The constumer would be able to check the status with the given code.
+
