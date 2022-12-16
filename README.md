@@ -7,8 +7,8 @@ Steps to follow to set up the project. (same can be found in README.me)
 3) Change directory to djvaleting [cd djvaleting]
 3) composer update
 4) rename .env.example to .env file as per you choice for database name (djvaleting)
-5) php artisan migrate
-6) php artisan key:generate
+5) php artisan migrate:fresh
+6) php artisan key:generate && php artisan optimize
 7) php artisan route:clear && php artisan config:cache && php artisan config:clear && php artisan view:clear
 8) php artisan optimize
 9) php artisan serve
